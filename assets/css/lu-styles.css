@@ -3,5 +3,101 @@ html {
 }
 
 body {
-    
+    font-size: 12px !important;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 1.6em !important;
+}
+
+h2 {
+    font-size: 1.5em !important;
+}
+
+h3 {
+    font-size: 1.4em !important;
+}
+
+h4 {
+    font-size: 1.3em !important;
+}
+
+h5 {
+    font-size: 1.2em !important;
+}
+
+a {
+    color: #191919 !important;
+    font-weight: 600 !important;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: orange !important;
+}
+
+.bg-red {
+    background-color: #fe022b !important;
+}
+
+.bg-blue {
+    background-color: #025FFE !important;
+}
+
+.bg-green {
+    background-color: #04BA52 !important;
+}
+
+.btn-primary {
+    background-color: rgb(255, 111, 0);
+    border: 1px solid rgb(245, 106, 0);
+    color: rgb(255, 240, 234) !important;
+    transition: 0.4s;
+}
+
+.btn-primary:hover {
+    background-color: rgb(245, 106, 0);
+    border: 1px solid rgb(228, 99, 0);
+    color: white !important;
+}
+
+/* Secciones */
+#lunches {
+    background-color: white;
+}
+
+#dia {
+    background-color: orange;
+}
+
+#guarniciones {
+    background-color: coral;
+}
+
+#extras {
+    background-color: darkcyan;
+}
+
+#aboutus {
+    background-color: cornflowerblue;
+}
+
+#servicios {
+    background-color: darkgreen;
+}
+
+#banquetes {
+    background-color: firebrick;
+}
+
+#map {
+    background-color: lightyellow;
+}
+
+footer {
+    background-color: hotpink;
 }

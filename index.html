@@ -12,22 +12,22 @@
 <body>
     <header class="pt-4">
         <div class="container">
-            <div class="logo d-flex justify-content-center">
-                <img src="assets/img/cropped-logo-350x197.jpg" alt="Sazón Casero Villahermosa">
+            <div class="logo d-flex justify-content-center m-3 m-lg-0">
+                <img src="assets/img/cropped-logo-350x197.jpg" alt="Sazón Casero Villahermosa" class="img-fluid">
             </div>
             <div class="main-menu col-lg-8 offset-lg-2 m-auto">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav m-auto">
-                            <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#">¿Quiénes somos?</a>
-                            <a class="nav-item nav-link" href="#">Servicios</a>
-                            <a class="nav-item nav-link" href="#">Banquetes</a>
-                            <a class="nav-item nav-link" href="#">Ordenar</a>
+                            <a class="nav-item nav-link active" href="#top">Inicio <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="#aboutus">¿Quiénes somos?</a>
+                            <a class="nav-item nav-link" href="#servicios">Servicios</a>
+                            <a class="nav-item nav-link" href="#banquetes">Banquetes</a>
+                            <a class="nav-item nav-link" href="https://wa.me/529931893825?text=Hola,%20quiero%20ordenar" target="_blank">Ordenar</a>
                         </div>
                     </div>
                 </nav>
@@ -35,210 +35,227 @@
         </div>
     </header>
 
-    <section id="content" class="mt-lg-5">
-        <div id="lunches" class="container">
+    <section id="lunches" class="pt-3 pb-0 pt-lg-5 pb-lg-5">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-3 bg-light p-4">
-                    <img src="assets/img/img-default.png" alt="Lunch Chico" class="img-fluid">
-                    <h3 class="mt-2">Lunch Chico</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat tempora nostrum facere quas. Numquam ipsam velit laudantium fuga sequi, quia iste omnis cumque, ea dolor voluptates esse perspiciatis excepturi.</p>
+                <div id="lunch-1" class="col-6 col-lg-3 bg-light p-0 bg-red">
+                    <img src="assets/img/lunch-chico.jpg" alt="Lunch Chico" class="img-fluid w-100">
+                    <div class="pl-3 pr-3 pt-3 pb-2">
+                        <h3 class="mt-2 text-white">Lunch Chico $65</h3>
+                        <p class="text-white">Plato fuerte, 2 guarniciones a elegir, salsa, tortilla, servilleta y cubiertos.</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 bg-light p-4">
-                    <img src="assets/img/img-default.png" alt="Lunch Grande" class="img-fluid">
-                    <h3 class="mt-2">Lunch Grande</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat tempora nostrum facere quas. Numquam ipsam
-                        velit laudantium fuga sequi, quia iste omnis cumque, ea dolor voluptates esse perspiciatis excepturi.</p>
+                <div id="lunch-2" class="col-6 col-lg-3 bg-light p-0 bg-green">
+                    <img src="assets/img/lunch-chico.jpg" alt="Lunch Grande" class="img-fluid w-100">
+                    <div class="pl-3 pr-3 pt-3 pb-2">
+                        <h3 class="mt-2 text-white">Lunch Grande $90</h3>
+                        <p class="text-white">Plato fuerte, dos guarniciones, salsa, tortilla, servilleta y cubiertos. (Más proporcionado)</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 bg-light p-4">
-                    <img src="assets/img/img-default.png" alt="Media orden" class="img-fluid">
-                    <h3 class="mt-2">Media orden</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat tempora nostrum facere quas. Numquam ipsam
-                        velit laudantium fuga sequi, quia iste omnis cumque, ea dolor voluptates esse perspiciatis excepturi.</p>
+                <div id="lunch-3" class="col-6 col-lg-3 bg-light p-0 bg-red">
+                    <img src="assets/img/lunch-chico.jpg" alt="Media orden" class="img-fluid w-100">
+                    <div class="pl-3 pr-3 pt-3 pb-2">
+                        <h3 class="mt-2 text-white">Media orden $150</h3>
+                        <p class="text-white">Media orden, solo plato fuerte de 2 a 4 personas.</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 bg-light p-4">
-                    <img src="assets/img/img-default.png" alt="Orden completa" class="img-fluid">
-                    <h3 class="mt-2">Orden completa</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat tempora nostrum facere quas. Numquam ipsam
-                        velit laudantium fuga sequi, quia iste omnis cumque, ea dolor voluptates esse perspiciatis excepturi.</p>
+                <div id="lunch-4" class="col-6 col-lg-3 bg-light p-0 bg-blue">
+                    <img src="assets/img/lunch-chico.jpg" alt="Orden completa" class="img-fluid w-100">
+                    <div class="pl-3 pr-3 pt-3 pb-2">
+                        <h3 class="mt-2 text-white">Orden completa $300</h3>
+                        <p class="text-white">Orden completa, solo plato fuerte de 4 a 8 personas.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="dia" class="container mt-5">
-        <h2 class="text-center">Menú del día</h2>
-        <p class="text-center">Servicio a domicilio $5 pesos (Consumo mínimo dependiendo de la colonia)</p>
-        <div class="menu-del-dia row mt-4">
-            <div class="col-lg-4">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-4">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
-                    dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
-                    quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-4">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
-                    dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
-                    quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-4">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
-                    dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
-                    quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-4">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
-                    dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
-                    quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-4">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
-                    dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
-                    quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-        </div>
-        <div class="text-center">
-            <a href="" class="btn btn-primary btn-lg rounded">Ordena por whatsapp</a>
-        </div>
-    </section>
-
-    <section id="guarniciones" class="container mt-5">
-        <h2 class="text-center">Guarniciones <span class="lead small">(Elige dos)</span></h2>
-        <p class="text-center">Servicio a domicilio $5 pesos (Consumo mínimo dependiendo de la colonia)</p>
-        <div class="menu-del-dia row mt-4">
-            <div class="col-lg-3">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam
-                        beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus
-                        voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-3">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam
-                        beatae
-                        dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus
-                        voluptatum, doloribus
+    <section id="dia" class="pt-5 pb-5 pt-lg-5 pb-lg-5">
+        <div class="container">
+            <h2 class="text-center">Menú del día</h2>
+            <p class="text-center">Servicio a domicilio $5 pesos (Consumo mínimo dependiendo de la colonia)</p>
+            <div class="menu-del-dia row mt-4">
+                <div class="col-6 col-lg-4">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
+                        dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
                         quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-3">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam
-                        beatae
-                        dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus
-                        voluptatum, doloribus
+                </div>
+                <div class="col-6 col-lg-4">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
+                        dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
                         quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-3">
-                <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
-                <h5 class="mt-2">Nombre del platillo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="extras" class="container mt-5">
-        <h2 class="text-center">Agregar extras</h2>
-        <div class="menu-del-dia row mt-4">
-            <div class="col-lg-6">
-                <h5 class="mt-2">Nombre del platillo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-            <div class="col-lg-6">
-                <h5 class="mt-2">Nombre del platillo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="aboutus" class="container mt-5">
-        <h2 class="text-center">¿Quiénes somos?</h2>
-        <p class="text-center">La cocina de hoy cambia con nuestra nueva propuesta… “El SAZON CASERO”. Si no tienes tiempo, lleva prisa, necesitas comer bien, no lo pienses!; evita comer comida chatarra, frituras y comida de la calle, las cuales no garantizan tú salud. Mejor siéntete como en casa con comida casera, mexicana y sobre todo 100% saludable, Deleita a tú paladar con nuestros platillos y lo mejor a un súper precio!. Olvídate de la formalidad de un restaurante y disfruta del sabor que nadie puede mejorar.</p>
-        <div id="valores" class="row">
-            <div class="col-lg-6">
-                <h3>Misión</h3>
-                <p>Somos una empresa dedicada a la elaboración de comida casera rica, nutritiva y saludable, que contribuye a mejorar la
-                calidad de vida, comodidad, alimentación y bienestar de la familia, brindando un servicio a domicilio de excelencia para
-                nuestros clientes, aplicando principios básicos de nuestra empresa como son la ética, puntualidad y responsabilidad.</p>
-            </div>
-            <div class="col-lg-6">
-                <h3>Visión</h3>
-                <p>Ser una empresa líder a nivel local en los servicios de comida casera de calidad facilitando a las familias tabasqueñas
-                rapidez y buen servicio en la adquisición de sus alimentos, enfocados en la mejora continua y calidad de nuestros
-                procesos.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="servicios" class="container mt-5">
-        <h3 class="mt-5">Otros servicios</h3>
-        <div class="col-lg-6 offset-lg-3 m-auto">
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul>
-                        <li>Banquetes para todo tipo de eventos</li>
-                        <li>Comedores industriales</li>
-                        <li>Comida buffet</li>
-                        <li>Desayunos</li>
-                    </ul>
                 </div>
-                <div class="col-lg-6">
-                    <ul>
-                        <li>Coffe break</li>
-                        <li>Refrigerios</li>
-                        <li>Servicios a empresas públicas y privadas</li>
-                        <li>Contamos con servicio de facturación</li>
-                    </ul>
+                <div class="col-6 col-lg-4">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
+                        dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
+                        quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
+                        dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
+                        quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae
+                        dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus
+                        quibusdam maiores laborum. Voluptatibus?</p>
                 </div>
             </div>
+            <div class="text-center mt-5">
+                <a href="https://wa.me/529931893825?text=Hola,%20quiero%20ordenar" class="btn btn-primary btn-lg rounded" target="_blank">Ordena por whatsapp</a>
+            </div>
         </div>
-        <div class="text-center">
-            <a href="" class="btn btn-primary btn-lg rounded">Cotizar un servicio</a>
+    </section>
+
+    <section id="guarniciones" class="pt-5 pb-5 pt-lg-5 pb-lg-5">
+        <div class="container">
+            <h2 class="text-center">Guarniciones <span class="lead small">(Elige dos)</span></h2>
+            <p class="text-center">Servicio a domicilio $5 pesos (Consumo mínimo dependiendo de la colonia)</p>
+            <div class="menu-del-dia row mt-4">
+                <div class="col-6 col-lg-3">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam
+                            beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus
+                            voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam
+                            beatae
+                            dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus
+                            voluptatum, doloribus
+                            quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam
+                            beatae
+                            dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus
+                            voluptatum, doloribus
+                            quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="foto"><img src="assets/img/img-default.png" alt="Platillo 1" class="img-fluid"></div>
+                    <h5 class="mt-2">Nombre del platillo</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="banquetes" class="container mt-5">
-        <h3>Banquetes</h3>
-        <p>Ponemos a tu alcance los tipos de menús para todos los bolsillos banquetes económicos pero no por ello menos especiales
-        porque sabemos que la importancia que tendrá en tus recuerdos la celebración de los eventos más importantes de tu vida.</p>
-        <p>Somos una empresa 100% tabasqueña y atención personalizada.</p>
-        <h5>Servicios</h5>
-        <p>Nuestros servicios siempre disponibles y a tiempo para organizar todo de acuerdo al tipo de evento que desees realizar.</p>
-        <h6>Tenemos servicios de:</h6>
-        <ul>
-            <li>Banquetes a Domicilio</li>
-            <li>Bodas</li>
-            <li>XV Años</li>
-            <li>Graduaciones</li>
-            <li>Despedidas</li>
-            <li>Bautizos</li>
-            <li>Cumpleaños</li>
-            <li>Aniversarios</li>
-            <li>Coffee Break</li>
-            <li>Servicio de taquiza (Tacos de guisado)</li>
-        </ul>
+    <section id="extras" class="pt-5 pb-5 pt-lg-5 pb-lg-5">
+        <div class="container">
+            <h2 class="text-center">Agregar extras</h2>
+            <div class="menu-del-dia row mt-4">
+                <div class="col-6 col-lg-6">
+                    <h5 class="text-center mt-2">Nombre del platillo</h3>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+                <div class="col-6 col-lg-6">
+                    <h5 class="text-center mt-2">Nombre del platillo</h3>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione consequuntur labore. Aliquam beatae dignissimos dolores vel, laboriosam facere eaque incidunt necessitatibus totam temporibus voluptatum, doloribus quibusdam maiores laborum. Voluptatibus?</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="map" class="container mt-5">
-
+    <section id="aboutus" class="pt-5 pb-5 pt-lg-5 pb-lg-5">
+        <div class="container">
+            <h2 class="text-center">¿Quiénes somos?</h2>
+            <p class="text-center">La cocina de hoy cambia con nuestra nueva propuesta… “El SAZON CASERO”. Si no tienes tiempo, lleva prisa, necesitas comer bien, no lo pienses!; evita comer comida chatarra, frituras y comida de la calle, las cuales no garantizan tú salud. Mejor siéntete como en casa con comida casera, mexicana y sobre todo 100% saludable, Deleita a tú paladar con nuestros platillos y lo mejor a un súper precio!. Olvídate de la formalidad de un restaurante y disfruta del sabor que nadie puede mejorar.</p>
+            <div id="valores" class="row mt-4">
+                <div class="col-6 col-lg-6">
+                    <h3 class="text-center">Misión</h3>
+                    <p class="text-center">Somos una empresa dedicada a la elaboración de comida casera rica, nutritiva y saludable, que contribuye a mejorar la
+                    calidad de vida, comodidad, alimentación y bienestar de la familia, brindando un servicio a domicilio de excelencia para
+                    nuestros clientes, aplicando principios básicos de nuestra empresa como son la ética, puntualidad y responsabilidad.</p>
+                </div>
+                <div class="col-6 col-lg-6">
+                    <h3 class="text-center">Visión</h3>
+                    <p class="text-center">Ser una empresa líder a nivel local en los servicios de comida casera de calidad facilitando a las familias tabasqueñas
+                    rapidez y buen servicio en la adquisición de sus alimentos, enfocados en la mejora continua y calidad de nuestros
+                    procesos.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
+    <section id="servicios" class="pt-5 pb-5 pt-lg-5 pb-lg-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Otros servicios</h3>
+            <div class="col-lg-6 offset-lg-3 m-auto">
+                <div class="row">
+                    <div class="col-6 col-lg-6">
+                        <ul>
+                            <li>Banquetes para todo tipo de eventos</li>
+                            <li>Comedores industriales</li>
+                            <li>Comida buffet</li>
+                            <li>Desayunos</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-6">
+                        <ul>
+                            <li>Coffe break</li>
+                            <li>Refrigerios</li>
+                            <li>Servicios a empresas públicas y privadas</li>
+                            <li>Contamos con servicio de facturación</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="https://wa.me/529931893825?text=Hola,%20quiero%20cotizar%20un%20servicio" class="btn btn-primary btn-lg rounded" target="_blank">Cotizar un servicio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banquetes" class="pt-5 pb-5 pt-lg-5 pb-lg-5">
+        <div class="container">
+            <h3 class="text-center">Banquetes</h3>
+            <p class="text-center">Ponemos a tu alcance los tipos de menús para todos los bolsillos banquetes económicos pero no por ello menos especiales
+            porque sabemos que la importancia que tendrá en tus recuerdos la celebración de los eventos más importantes de tu vida.</p>
+            <p class="text-center">Somos una empresa 100% tabasqueña y atención personalizada.</p>
+            <h5 class="text-center">Servicios</h5>
+            <p class="text-center">Nuestros servicios siempre disponibles y a tiempo para organizar todo de acuerdo al tipo de evento que desees realizar.</p>
+            <h6 class="text-center">Tenemos servicios de:</h6>
+            <ul>
+                <li>Banquetes a Domicilio</li>
+                <li>Bodas</li>
+                <li>XV Años</li>
+                <li>Graduaciones</li>
+                <li>Despedidas</li>
+                <li>Bautizos</li>
+                <li>Cumpleaños</li>
+                <li>Aniversarios</li>
+                <li>Coffee Break</li>
+                <li>Servicio de taquiza (Tacos de guisado)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="map" class="pt-4 pb-4 pt-lg-5 pb-lg-5">
+        <div class="container"></div>
+    </section>
+
+    <footer class="pt-4pt-lg-5 pb-lg-5">
         <div id="top-footer" class="container">
             <h3 class="text-center">Visítanos</h3>
             <p class="text-center">Calle Ernesto Malda No. 601, Col. Lindavista, 86050 Villahermosa, Tabasco</p>
@@ -254,7 +271,9 @@
                 </div>
             </div>
         </div>
-        <div id="bottom-footer" class="container"><span>Copyright © 2019 El Sazón Casero</span></div>
+        <div id="bottom-footer" class="container text-center p-2">
+            <span>Copyright © 2019 El Sazón Casero</span>
+        </div>
     </footer>
 
     
