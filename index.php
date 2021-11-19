@@ -13,7 +13,7 @@ $postres = get_active_posts($conn, 'deserts');
     <h2 class="lead text-center mb-4" style="font-size: 32px;">El menú de hoy</h2>
     <div class="container">
         <div class="row">
-            <?php if(count($platillos) > 0) : ?>
+            <?php if(count(array($platillos)) > 0) : ?>
             <?php while($platillo = $platillos->fetch_array() ) : ?>
             <div class="col-lg-4 mb-4 ml-lg-0 mr-lg-0 ml-4 mr-4">
                 <div class="card shadow-sm h-100">
@@ -62,7 +62,7 @@ $postres = get_active_posts($conn, 'deserts');
 </section>
 <?php endif ?>
 
-<?php if(count($postres) > 0) : ?>
+<?php if(count(array($postres)) > 0) : ?>
 <section id="postres" class="mb-0 pt-5 pb-5 text-center">
     <h2 class="lead text-center mb-0" style="font-size: 32px;">Postres</h2>
     <div class="container mt-5">
@@ -87,7 +87,7 @@ $postres = get_active_posts($conn, 'deserts');
 </section>
 <?php endif ?>
 
-<?php if(count($bebidas) > 0) : ?>
+<?php if(count(array($bebidas)) > 0) : ?>
 <section id="bebidas" class="mb-0 bg-beige pt-5 pb-5 text-center">
     <h2 class="lead text-center mb-0" style="font-size: 32px;">Bebidas del día</h2>
     <div class="container mt-5">
@@ -118,13 +118,13 @@ $postres = get_active_posts($conn, 'deserts');
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Aparta tu rosca</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Menú Navideño</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <a href="navidad.php"><img src="assets/img/rosca_de_reyes_villahermosa.jpeg" alt="Aviso" class="img-fluid"></a>
+        <a href="navidad.php"><img src="assets/img/paquete_navideno.jpeg" alt="Aviso" class="img-fluid"></a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     
 
     //Popup
-    //$('#exampleModal').modal('show');
+    $('#exampleModal').modal('show');
 
     $('#contact-btn').click(function (e) { 
         e.preventDefault();
