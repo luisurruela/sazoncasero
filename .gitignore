@@ -1,0 +1,10 @@
+config/error_log
+/config
+/uploads/deserts/*
+/uploads/deserts-cropped/*
+/uploads/drinks/*
+/uploads/drinks-cropped/*
+/uploads/sides/*
+/uploads/sides-cropped/*
+/uploads/specials/*
+/uploads/specials-cropped/*
